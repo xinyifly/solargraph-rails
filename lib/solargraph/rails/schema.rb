@@ -19,7 +19,9 @@ module Solargraph
         inet: 'IPAddr',
         citext: 'String',
         binary: 'String',
-        timestamp: 'ActiveSupport::TimeWithZone'
+        timestamp: 'ActiveSupport::TimeWithZone',
+        enum: 'String',
+        macaddr: 'String'
       }
 
       def self.instance
